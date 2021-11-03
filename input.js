@@ -37,6 +37,9 @@ const handleUserInput = function (key) {
     case '\u0064':
       connection.write('Move: right');
       break;
+    case '\u007A':
+      connection.write('Say: not too fast..');
+      break;
     case '\u0003':
       process.exit();
       break;
